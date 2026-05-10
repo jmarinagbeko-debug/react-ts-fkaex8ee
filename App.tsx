@@ -1,4 +1,4 @@
-import React from 'react';
+
 // ═══════════════════════════════════════════════════════════════════════
 // MY HUB — ADHD PLANNER  |  Mobile-First  |  Supabase Sync Ready
 // ═══════════════════════════════════════════════════════════════════════
@@ -9,7 +9,7 @@ import React from 'react';
 // 3. Deploy to Vercel/Stackblitz → share URL with partner
 // ═══════════════════════════════════════════════════════════════════════
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 
 // ── 🔑 YOUR SUPABASE CREDENTIALS ─────────────────────────────────────
 const SUPABASE_URL = "https://YOUR_PROJECT.supabase.co";
